@@ -1,0 +1,30 @@
+identity:
+  name: dify-test-2
+  author: twwu
+  label:
+    en_US: dify-test-2
+    zh_Hans: dify-test-2
+    pt_BR: dify-test-2
+description:
+  human:
+    en_US: test
+    zh_Hans: test
+    pt_BR: test
+  llm: test
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: test
+      zh_Hans: test
+      pt_BR: test
+    llm_description: test
+    form: llm
+extra:
+  python:
+    source: tools/dify-test-2.py

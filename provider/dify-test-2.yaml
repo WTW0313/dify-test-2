@@ -1,0 +1,17 @@
+identity:
+  author: twwu
+  name: dify-test-2
+  label:
+    en_US: dify-test-2
+    zh_Hans: dify-test-2
+    pt_BR: dify-test-2
+  description:
+    en_US: test
+    zh_Hans: test
+    pt_BR: test
+  icon: icon.svg
+tools:
+  - tools/dify-test-2.yaml
+extra:
+  python:
+    source: provider/dify-test-2.py

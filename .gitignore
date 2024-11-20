@@ -1,0 +1,4 @@
+*.difypkg
+dify-plugin*
+__pycache__/
+.env
